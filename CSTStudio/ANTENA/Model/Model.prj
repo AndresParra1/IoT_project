@@ -1,0 +1,21 @@
+[Version]
+2
+[ProjectVersion]
+'# MWS Version: Version 2019.5 - Apr 26 2019 - ACIS 28.0.2 - Student Edition
+[Author]
+Cthulhu
+[Mesh Cells]
+8,400
+[Mesh Type]
+Hexahedral
+[Last Problem Type]
+High Frequency
+[Last Solver Type]
+HF Time Domain
+[Last Solver Type Abb]
+t
+[Results]
+Time Domain: S-Parameter
+[Modeler Unique ID]
+5:antena.cst?cf95d0b008f3fac32cc54a6d75943f59?130862:numberofparameters=9:port=1>mode=1>zre=0>zim=0:::lp1?lp2?ls?tp?tsub?wp1?wp2?ws?k
+[Comment]
