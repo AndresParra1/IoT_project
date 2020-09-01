@@ -1,0 +1,174 @@
+30/Aug/2020 11:03:40  *** Warning ***
+                      
+                      This software is licensed for personal and educational purposes only.
+                      
+                      ------------------------------------------------------------------------------
+30/Aug/2020 11:03:40  To support PBA version "default" the update schema for discrete face ports /
+                      face lumped elements is set to "distributed" 
+                      
+                      ------------------------------------------------------------------------------
+30/Aug/2020 11:03:40  The following farfield monitor(s) have been adjusted to model box [-7.90668,
+                      113.907, -7.90668, 50.9067, -4.78791, 7.17555].
+                        farfield (f=910), farfield (f=915), farfield (f=920). More...
+                      
+                      ------------------------------------------------------------------------------
+30/Aug/2020 11:03:40  
+                      Solver started at: 11:03 AM Sunday, 30. August 2020 (SA Pacific Standard Time)
+                      
+                        Module:  Time Domain: S-Parameter (Win 64)
+                        Version: 2019.5 Release from 2019-04-26 (change 688563)
+                      
+
+                      ------------------------------------------------------------------------------
+
+                      ------------------------------------------------------------------------------
+30/Aug/2020 11:03:40  ======================================================================
+                       Solver cycle: 1
+                      ======================================================================
+                      
+                      Stimulation at discrete port 1 
+                      
+                      
+                      
+                      ------------------------------------------------------------------------------
+30/Aug/2020 11:03:40  Units settings: 
+                      
+                        Dimensions: mm
+                        Frequency:  MHz
+                        Time:       ns
+                      
+                      ------------------------------------------------------------------------------
+30/Aug/2020 11:03:44  The following discrete face port is connected to metal material:
+                      	1
+                      
+                      ------------------------------------------------------------------------------
+30/Aug/2020 11:03:44  Mesh statistics:
+                      
+                         Hexahedral mesh type: PBA [Version: default]
+                      
+                         Parallelization type: domain decomposition
+                            Number of parallel working threads: 1
+                            Number of calculation domains used: 1
+                      
+                         Used point accuracy enhancement value: 75.00%.
+                         PBA fill limit: 99.00% (inverse)
+
+30/Aug/2020 11:03:45  Boundary conditions: 
+                      
+                        YZsymmetry: none
+                        XZsymmetry: none
+                        XYsymmetry: none
+                      
+                        Xmin: expanded open, 4 Layer, depth 106.204 mm
+                        Xmax: expanded open, 4 Layer, depth 106.204 mm
+                      
+                        Ymin: expanded open, 4 Layer, depth 106.204 mm
+                        Ymax: expanded open, 4 Layer, depth 106.204 mm
+                      
+                        Zmin: expanded open, 4 Layer, depth 115.727 mm
+                        Zmax: expanded open, 4 Layer, depth 114.187 mm
+                      
+                        PML-Type: Convolution PML
+                      
+                      ------------------------------------------------------------------------------
+30/Aug/2020 11:03:45  Frequency settings: 
+                      
+                        Fmin:         0
+                        Fmax:         1500
+                        Nfsteps(lin): 1001
+                      
+                      ------------------------------------------------------------------------------
+30/Aug/2020 11:03:45  Port: 1
+                      
+30/Aug/2020 11:03:45    Discrete element, reference impedance = 50 Ohm
+                      
+                      ------------------------------------------------------------------------------
+30/Aug/2020 11:03:45  Field update statistics:
+                      
+                        Number of components in total: 	54473
+                        Number of lossy metal components:	509
+                        Number of disp. elements:		171
+                      
+                      Subcycling state:      Automatically deactivated
+                      
+                      ------------------------------------------------------------------------------
+30/Aug/2020 11:03:48  
+                      --------------------------------------------------------------------------------
+30/Aug/2020 11:03:48  Steady state energy criterion met, solver finished successfully.
+                      
+                      ------------------------------------------------------------------------------
+30/Aug/2020 11:03:48  Frequency domain results normalized to default signal.
+                      
+                      
+                      ------------------------------------------------------------------------------
+30/Aug/2020 11:03:48  
+                        ----------------------------------------------------------------------------
+                                            Peak memory used (kB)         Free physical memory (kB) 
+                                                                          At begin     Minimum      
+                        ----------------------------------------------------------------------------
+                        CAD preparation     21496                         3423440      3423440      
+                        Matrices calc.      27343                         3405273      3388671      
+                        Solver run total    39216                         3447316      3419612      
+                        ----------------------------------------------------------------------------
+                      
+                      --------------------------------------------------------------------------------
+                      Solver Statistics:
+                      
+                        Hardware:
+                           Computer name:                 	DESKTOP-E8EG2LF 
+                      
+                           Number of CPU threads:               8
+                           Hardware info:                  	Hardware Accelerator Device not activated
+                      
+                        Number of mesh cells:             	8400
+                        Excitation duration:              	2.36969917e+000 ns 
+                        Calculation time for excitation:  	0 	s
+                        Number of calculated pulse widths:	2.78646 
+                        Steady state accuracy limit:      	-40	dB 
+                        Simulated number of time steps:   	1170 
+                        Maximum number of time steps:     	8397 
+                        Time step width:
+                           without subcycles:             	5.64365675e-003 ns
+                           used:                          	5.64365675e-003 ns
+                      
+                        CAD preparation time:             	0      	s
+                        Matrix calculation time:          	3 	s
+                        Solver setup time:                	2 	s
+                        Solver loop time:                 	0 	s
+                        Solver post processing time:      	1 	s
+                                                          	------------
+                        Total solver time:                	6 	s
+                      
+                      ------------------------------------------------------------------------------
+30/Aug/2020 11:03:48  
+                        Adaptive port meshing time:          	0      	s
+                        Total solver time (all cycles):      	6      	s
+                        solver initialization and clean-up:  	2      	s
+                                                             	------------
+                        Total simulation time:               	8      	s
+                      
+                      ------------------------------------------------------------------------------
+30/Aug/2020 11:03:48  Solver finished at: 11:03 AM Sunday, 30. August 2020
+                      
+                      
+                      
+                      ------------------------------------------------------------------------------
+30/Aug/2020 11:03:48  To support PBA version "default" the update schema for discrete face ports /
+                      face lumped elements is set to "distributed" 
+                      
+                      ------------------------------------------------------------------------------
+30/Aug/2020 11:03:49  To support PBA version "default" the update schema for discrete face ports /
+                      face lumped elements is set to "distributed" 
+                      
+                      ------------------------------------------------------------------------------
+30/Aug/2020 11:03:49  To support PBA version "default" the update schema for discrete face ports /
+                      face lumped elements is set to "distributed" 
+                      
+                      ------------------------------------------------------------------------------
+30/Aug/2020 11:03:50  Creating parametric 1D results for Run ID 1
+                      
+                      ------------------------------------------------------------------------------
+30/Aug/2020 11:03:50  To support PBA version "default" the update schema for discrete face ports /
+                      face lumped elements is set to "distributed" 
+                      
+                      ------------------------------------------------------------------------------

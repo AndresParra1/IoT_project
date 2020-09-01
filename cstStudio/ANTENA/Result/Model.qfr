@@ -1,0 +1,9 @@
+Q-Factor Result File Version 20010206
+Frequency/Hz 9.150000000000e+08
+Energy/J 8.149716468020e-10
+TotalQ 2.809245451390e+03
+Material **Cond. Enclosure** 0.000000000000e+00
+Material Copper (annealed) 3.382197382050e-05
+Shape component1:Patch 0.000000000000e+00
+Shape component1:Ground 3.382197382050e-05
+VolumeLoss 3.301853344330e-03
