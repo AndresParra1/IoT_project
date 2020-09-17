@@ -1,0 +1,3 @@
+ lib=c:\cadence\spb_17.2\tools\PSpice\Library\Themistor_vishay.lib, offset=46044, size=248
+ lib=c:\cadence\spb_17.2\tools\PSpice\Library\lin_tech.lib, offset=270166, size=1196
+ lib=c:\cadence\spb_17.2\tools\PSpice\Library\Themistor_vishay.lib, offset=44853, size=1190

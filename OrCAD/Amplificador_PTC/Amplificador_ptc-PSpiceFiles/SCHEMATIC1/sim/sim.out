@@ -1,7 +1,7 @@
-
-**** 08/30/20 11:38:11 ****** PSpice 17.2.0 (March 2016) ****** ID# 0 ********
 
- ** Profile: "SCHEMATIC1-sim"  [ C:\Users\Asus PC\Documents\9_semestre\Diseño\Proyecto\Amplificador_ptc\amplificador_ptc-pspicefiles\
+**** 09/16/20 18:26:09 ****** PSpice 17.2.0 (March 2016) ****** ID# 0 ********
+
+ ** Profile: "SCHEMATIC1-sim"  [ C:\Users\Cthulhu\Downloads\IoT_project-master\OrCAD\Amplificador_PTC\amplificador_ptc-pspicefiles\sc
 
 
  ****     CIRCUIT DESCRIPTION
@@ -18,7 +18,7 @@
 *Libraries: 
 * Profile Libraries :
 * Local Libraries :
-* From [PSPICE NETLIST] section of D:\Programassss\Cadence\Cadence\SPB_Data\cdssetup\OrCAD_PSpice\17.2.0\PSpice.ini file:
+* From [PSPICE NETLIST] section of C:\Users\Cthulhu\AppData\Roaming\SPB_Data\cdssetup\OrCAD_PSpice\17.2.0\PSpice.ini file:
 .lib "nom.lib" 
 
 *Analysis directives: 
@@ -31,22 +31,22 @@
 
 **** INCLUDING SCHEMATIC1.net ****
 * source AMPLIFICADOR_PTC
-X_U1A         N00397 N00366 VCC 0 VOUT LTC1047/LT
 R_R1         N00456 N00366  10k TC=0,0 
 R_R2         N00397 VCC  195.23k TC=0,0 
 R_R3         0 N00397  200k TC=0,0 
 R_R4         VOUT N00366  120k TC=0,0 
 V_V2         VCC 0 3.3
-X_U1B         N00451 N00456 VCC 0 N00456 LTC1047/LT
 X_U2         N00451 VCC TFPT1206L1002 PARAMS: TOL25=0 TOLSLOPE=0
 R_R5         0 N00451  10k TC=0,0 
+X_U3         N00451 N00456 VCC 0 N00456 LTC1050/LT
+X_U4         N00397 N00366 VCC 0 VOUT LTC1050/LT
 
 **** RESUMING sim.cir ****
 .END
 
-**** 08/30/20 11:38:11 ****** PSpice 17.2.0 (March 2016) ****** ID# 0 ********
+**** 09/16/20 18:26:09 ****** PSpice 17.2.0 (March 2016) ****** ID# 0 ********
 
- ** Profile: "SCHEMATIC1-sim"  [ C:\Users\Asus PC\Documents\9_semestre\Diseño\Proyecto\Amplificador_ptc\amplificador_ptc-pspicefiles\
+ ** Profile: "SCHEMATIC1-sim"  [ C:\Users\Cthulhu\Downloads\IoT_project-master\OrCAD\Amplificador_PTC\amplificador_ptc-pspicefiles\sc
 
 
  ****     Diode MODEL PARAMETERS
@@ -57,26 +57,26 @@ R_R5         0 N00451  10k TC=0,0
 
 
 
-               X_U1A.DM1       X_U1A.DM2       X_U1A.DM3       X_U1A.DMG1      
+               X_U3.DM1        X_U3.DM2        X_U3.DM3        X_U3.DMG1       
           IS   10.000000E-21  800.000000E-18  100.000000E-18    7.000000E-12 
            N                                                    2.31         
           BV                   19.8                                          
 
 
-               X_U1A.DMG2      X_U1B.DM1       X_U1B.DM2       X_U1B.DM3       
+               X_U3.DMG2       X_U4.DM1        X_U4.DM2        X_U4.DM3        
           IS    6.300000E-12   10.000000E-21  800.000000E-18  100.000000E-18 
            N    2.31                                                         
           BV                                   19.8                          
 
 
-               X_U1B.DMG1      X_U1B.DMG2      
+               X_U4.DMG1       X_U4.DMG2       
           IS    7.000000E-12    6.300000E-12 
            N    2.31            2.31         
 
 
-**** 08/30/20 11:38:11 ****** PSpice 17.2.0 (March 2016) ****** ID# 0 ********
+**** 09/16/20 18:26:09 ****** PSpice 17.2.0 (March 2016) ****** ID# 0 ********
 
- ** Profile: "SCHEMATIC1-sim"  [ C:\Users\Asus PC\Documents\9_semestre\Diseño\Proyecto\Amplificador_ptc\amplificador_ptc-pspicefiles\
+ ** Profile: "SCHEMATIC1-sim"  [ C:\Users\Cthulhu\Downloads\IoT_project-master\OrCAD\Amplificador_PTC\amplificador_ptc-pspicefiles\sc
 
 
  ****     MOSFET MODEL PARAMETERS
@@ -87,13 +87,13 @@ R_R5         0 N00451  10k TC=0,0
 
 
 
-               X_U1A.PM1       X_U1A.PM2       X_U1B.PM1       X_U1B.PM2       
+               X_U3.PM1        X_U3.PM2        X_U4.PM1        X_U4.PM2        
                PMOS            PMOS            PMOS            PMOS            
        LEVEL    1               1               1               1            
            L  100.000000E-06  100.000000E-06  100.000000E-06  100.000000E-06 
            W  100.000000E-06  100.000000E-06  100.000000E-06  100.000000E-06 
-         VTO   -1.1            -1.100002       -1.1            -1.100002     
-          KP  947.480000E-06  947.480000E-06  947.480000E-06  947.480000E-06 
+         VTO   -1.1            -1.100001       -1.1            -1.100001     
+          KP    1.850600E-03    1.850600E-03    1.850600E-03    1.850600E-03 
        GAMMA    0               0               0               0            
          PHI     .6              .6              .6              .6          
       LAMBDA    0               0               0               0            
@@ -122,9 +122,9 @@ R_R5         0 N00451  10k TC=0,0
 
           JOB CONCLUDED
 
-**** 08/30/20 11:38:11 ****** PSpice 17.2.0 (March 2016) ****** ID# 0 ********
+**** 09/16/20 18:26:09 ****** PSpice 17.2.0 (March 2016) ****** ID# 0 ********
 
- ** Profile: "SCHEMATIC1-sim"  [ C:\Users\Asus PC\Documents\9_semestre\Diseño\Proyecto\Amplificador_ptc\amplificador_ptc-pspicefiles\
+ ** Profile: "SCHEMATIC1-sim"  [ C:\Users\Cthulhu\Downloads\IoT_project-master\OrCAD\Amplificador_PTC\amplificador_ptc-pspicefiles\sc
 
 
  ****     JOB STATISTICS SUMMARY
@@ -134,5 +134,5 @@ R_R5         0 N00451  10k TC=0,0
 
 
 
-  Total job time (using Solver 1)   =         .17
+  Total job time (using Solver 1)   =         .06
 

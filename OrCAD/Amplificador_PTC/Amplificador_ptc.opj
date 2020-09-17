@@ -14,10 +14,14 @@
       (Type "Report")))
   (Folder "PSpice Resources"
     (Folder "Simulation Profiles"
-      (ActiveProfile ".\amplificador_ptc-pspicefiles\schematic1\sim.sim")
       (File.PSpice.{09528990-3187-11D2-BC7B-00A0C90CBF91}
          ".\amplificador_ptc-pspicefiles\schematic1\sim.sim"
         (DisplayName "SCHEMATIC1-sim")
+        (Type "PSpice Profile"))
+      (ActiveProfile ".\amplificador_ptc-pspicefiles\schematic1\sim2.sim")
+      (File.PSpice.{09528990-3187-11D2-BC7B-00A0C90CBF91}
+         ".\amplificador_ptc-pspicefiles\schematic1\sim2.sim"
+        (DisplayName "SCHEMATIC1-sim2")
         (Type "PSpice Profile")))
     (Folder "Model Libraries"
       (Sort User))
@@ -27,6 +31,16 @@
       (Sort User)))
   (DefaultLibraryBrowseDirectory "library\PSpice")
   (PartMRUSelector
+    (LTC1050/LT
+      (FullPartName "LTC1050/LT.Normal")
+      (LibraryName
+         "C:\CADENCE\SPB_17.2\TOOLS\CAPTURE\LIBRARY\PSPICE\LIN_TECH.OLB")
+      (DeviceIndex "0"))
+    (LTC1049/LT
+      (FullPartName "LTC1049/LT.Normal")
+      (LibraryName
+         "C:\CADENCE\SPB_17.2\TOOLS\CAPTURE\LIBRARY\PSPICE\LIN_TECH.OLB")
+      (DeviceIndex "0"))
     (R
       (FullPartName "R.Normal")
       (LibraryName
@@ -57,18 +71,18 @@
       (DeviceIndex "0")))
   (LastUsedLibraryBrowseDirectory
      "D:\Programassss\Cadence\Cadence\Cadence_SPB_17.2-2016\tools\capture\library\pspice")
-  (MPSSessionName "Asus PC")
+  (MPSSessionName "Cthulhu")
   (GlobalState
     (FileView
       (Path "Design Resources")
       (Path "Design Resources"
-         "C:\Users\Asus PC\Documents\9_semestre\Diseño\Proyecto\Amplificador_ptc\amplificador_ptc.dsn")
+         "C:\Users\Cthulhu\Downloads\IoT_project-master\OrCAD\Amplificador_PTC\amplificador_ptc.dsn")
       (Path "Design Resources"
-         "C:\Users\Asus PC\Documents\9_semestre\Diseño\Proyecto\Amplificador_ptc\amplificador_ptc.dsn"
+         "C:\Users\Cthulhu\Downloads\IoT_project-master\OrCAD\Amplificador_PTC\amplificador_ptc.dsn"
          "SCHEMATIC1")
       (Path "Outputs")
       (Select "Design Resources"
-         "C:\Users\Asus PC\Documents\9_semestre\Diseño\Proyecto\Amplificador_ptc\amplificador_ptc.dsn"
+         "C:\Users\Cthulhu\Downloads\IoT_project-master\OrCAD\Amplificador_PTC\amplificador_ptc.dsn"
          "SCHEMATIC1" "PAGE1"))
     (HierarchyView)
     (Doc
@@ -79,11 +93,11 @@
     (Doc
       (Type "COrSchematicDoc")
       (Frame
-        (Placement "44 2 3 -1 -1 -8 -31 52 1238 52 303")
-        (Scroll "76 0")
-        (Zoom "147")
+        (Placement "44 2 3 -1 -1 -8 -31 52 1684 52 507")
+        (Scroll "-269 0")
+        (Zoom "231")
         (Occurrence "/"))
       (Path
-         "C:\USERS\ASUS PC\DOCUMENTS\9_SEMESTRE\DISEÑO\PROYECTO\AMPLIFICADOR_PTC\AMPLIFICADOR_PTC.DSN")
+         "C:\USERS\CTHULHU\DOWNLOADS\IOT_PROJECT-MASTER\ORCAD\AMPLIFICADOR_PTC\AMPLIFICADOR_PTC.DSN")
       (Schematic "SCHEMATIC1")
       (Page "PAGE1"))))

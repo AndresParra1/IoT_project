@@ -1,0 +1,86 @@
+(---------------------------------------------------------------------)
+(                                                                     )
+(    Refresh Padstack                                                 )
+(                                                                     )
+(    Drawing          : PCB.brd                                       )
+(    Software Version : 17.2P019                                      )
+(    Date/Time        : Tue Sep 15 18:14:49 2020                      )
+(                                                                     )
+(---------------------------------------------------------------------)
+
+
+Tue Sep 15 18:14:49 2020				Page     1
+
+
+------ Pad Stack Refresh Options ------
+
+Input design  = 'C:/USERS/ASUS PC/DOCUMENTS/9_SEMESTRE/DISEÑO/PROYECTO/PCB/allegro/PCB.brd'
+Output design = ''
+Reset symbol text and size locations   = 'NO'
+
+
+------ Library Paths ------
+PSMPATH =  . 
+           symbols 
+           .. 
+           ../symbols 
+           D:/Programassss/Cadence/Cadence/Cadence_SPB_17.2-2016/share/local/pcb/symbols 
+           D:/Programassss/Cadence/Cadence/Cadence_SPB_17.2-2016/share/pcb/pcb_lib/symbols 
+           D:/Programassss/Cadence/Cadence/Cadence_SPB_17.2-2016/share/pcb/allegrolib/symbols 
+
+PADPATH =  . 
+           symbols 
+           .. 
+           ../symbols 
+           D:/Programassss/Cadence/Cadence/Cadence_SPB_17.2-2016/share/local/pcb/padstacks 
+           D:/Programassss/Cadence/Cadence/Cadence_SPB_17.2-2016/share/pcb/pcb_lib/symbols 
+           D:/Programassss/Cadence/Cadence/Cadence_SPB_17.2-2016/share/pcb/allegrolib/symbols 
+
+
+------ Pad Stack Refresh Messages ------
+
+'PAD_PORT_ANTENA'  pad stack refresh starting.
+
+     'PAD_PORT_ANTENA'  pad stack refreshed successfully.
+     
+'VIA'  pad stack refresh starting.
+
+     'VIA'  pad stack refreshed successfully.
+     
+'S_R70_30M70_30P70_30'  pad stack refresh starting.
+
+     'S_R70_30M70_30P70_30'  pad stack refreshed successfully.
+     
+'S_R139_43M139_43P139_43'  pad stack refresh starting.
+
+     'S_R139_43M139_43P139_43'  pad stack refreshed successfully.
+     
+'S_R124_55D500M124_55P124_55'  pad stack refresh starting.
+
+     'S_R124_55D500M124_55P124_55'  pad stack refreshed successfully.
+     
+'S_R76_22_D2500_M76_22_P76_2'  pad stack refresh starting.
+
+     'S_R76_22_D2500_M76_22_P76_2'  pad stack refreshed successfully.
+     
+'S_R76_32_D2500_M76_32_P76_3'  pad stack refresh starting.
+
+     'S_R76_32_D2500_M76_32_P76_3'  pad stack refreshed successfully.
+     
+'S_R76_27_D2500_M76_27_P76_2'  pad stack refresh starting.
+
+     'S_R76_27_D2500_M76_27_P76_2'  pad stack refreshed successfully.
+     
+'PAD60CIR36D'  pad stack refresh starting.
+
+     'PAD60CIR36D'  pad stack refreshed successfully.
+     
+'S_R300_140M300_140P300_140'  pad stack refresh starting.
+
+     'S_R300_140M300_140P300_140'  pad stack refreshed successfully.
+     
+'PAD_0805'  pad stack refresh starting.
+
+     'PAD_0805'  pad stack refreshed successfully.
+     
+Completed refreshing all pad stacks successfully.

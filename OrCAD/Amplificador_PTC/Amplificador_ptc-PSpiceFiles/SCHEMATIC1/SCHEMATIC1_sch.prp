@@ -1,6 +1,63 @@
 ("FILE_TYPE"	"PMAP File"
     ("devices"
-        ("LTC1047/LT"
+        ("R"
+            ("info"
+                ("spice_dsg"	"R")
+                ("port_order"
+                    ("1")
+                    ("2")
+                )
+            )
+            ("model_params"
+                ("level_0"
+                    ("TC1"
+                        ("value"	"0")
+                    )
+                    ("TC2"
+                        ("value"	"0")
+                    )
+                    ("VALUE"
+                        ("value"	"0")
+                    )
+                )
+            )
+            ("smoke"
+                ("pre_smoke"
+                    ("NODE_VA"	"1")
+                    ("NODE_VB"	"2")
+                    ("DERATE_TYPE"	"RES")
+                )
+                ("max_ops"
+                    ("RV"	"VOLTAGE")
+                    ("PDM"	"POWER")
+                    ("SLP"	"SLOPE")
+                    ("RBA"	"1/SLP")
+                    ("TMAX"	"MAX_TEMP")
+                    ("TB"	"TMAX")
+                    ("RTKNEE"	"TKNEE")
+                    ("RTRISE"	"TRISE")
+                )
+                ("smoke_tests"
+                    ("PDM"
+                        ("test"	"power_test")
+                    )
+                    ("RV"
+                        ("test"	"abs_voltage_test")
+                        ("nodes"
+                            ("NODE_VA")
+                            ("NODE_VB")
+                        )
+                    )
+                    ("TB"
+                        ("test"	"temp_null_test")
+                    )
+                )
+                ("device_max_ops")
+            )
+        )
+        ("VDC")
+        ("TFPT1206L1002")
+        ("LTC1050/LT"
             ("info"
                 ("spice_dsg"	"X")
             )
@@ -235,13 +292,13 @@
                 ("device_max_ops"
                     ("VPMIN"	"0.3")
                     ("VMMIN"	"0.3")
-                    ("IOUT"	"1.2m")
-                    ("VSMAX"	"16")
+                    ("IOUT"	"6m")
+                    ("VSMAX"	"18")
                     ("VSMIN"	"-4.75")
                     ("VPMAX"	"0.3")
                     ("VMMAX"	"0.3")
-                    ("VCCMAX"	"8")
-                    ("VEEMAX"	"8")
+                    ("VCCMAX"	"9")
+                    ("VEEMAX"	"9")
                 )
                 ("device_pre_smoke"
                     ("TERM_POS"	"+")
@@ -256,80 +313,8 @@
                 )
             )
         )
-        ("R"
-            ("info"
-                ("spice_dsg"	"R")
-                ("port_order"
-                    ("1")
-                    ("2")
-                )
-            )
-            ("model_params"
-                ("level_0"
-                    ("TC1"
-                        ("value"	"0")
-                    )
-                    ("TC2"
-                        ("value"	"0")
-                    )
-                    ("VALUE"
-                        ("value"	"0")
-                    )
-                )
-            )
-            ("smoke"
-                ("pre_smoke"
-                    ("NODE_VA"	"1")
-                    ("NODE_VB"	"2")
-                    ("DERATE_TYPE"	"RES")
-                )
-                ("max_ops"
-                    ("RV"	"VOLTAGE")
-                    ("PDM"	"POWER")
-                    ("SLP"	"SLOPE")
-                    ("RBA"	"1/SLP")
-                    ("TMAX"	"MAX_TEMP")
-                    ("TB"	"TMAX")
-                    ("RTKNEE"	"TKNEE")
-                    ("RTRISE"	"TRISE")
-                )
-                ("smoke_tests"
-                    ("PDM"
-                        ("test"	"power_test")
-                    )
-                    ("RV"
-                        ("test"	"abs_voltage_test")
-                        ("nodes"
-                            ("NODE_VA")
-                            ("NODE_VB")
-                        )
-                    )
-                    ("TB"
-                        ("test"	"temp_null_test")
-                    )
-                )
-                ("device_max_ops")
-            )
-        )
-        ("VDC")
-        ("TFPT1206L1002")
     )
     ("instances"
-        ("U1A"
-            ("device_name"	"LTC1047/LT")
-            ("pspice_path"	"X_U1A")
-            ("level"	"0")
-            ("model_params"
-                ("BiasValue Power"
-                    ("value"	"-976.5uW")
-                    ("pspice_param"	"BiasValue Power")
-                )
-                ("Schematics' Source Library"
-                    ("value"	"D:\\Pit\\Vendor Libraries\\Linear Tech\\Lin_Tech.slb")
-                    ("pspice_param"	"Schematics' Source Library")
-                )
-            )
-        )
         ("R1"
             ("device_name"	"R")
             ("pspice_path"	"R_R1")
@@ -339,10 +324,6 @@
                     ("value"	"10k")
                     ("pspice_param"	"VALUE")
                     ("distrib"	"FLAT")
-                )
-                ("BiasValue Power"
-                    ("value"	"1.455uW")
-                    ("pspice_param"	"BiasValue Power")
                 )
                 ("DIST"
                     ("value"	"FLAT")
@@ -393,10 +374,6 @@
                     ("pspice_param"	"VALUE")
                     ("distrib"	"FLAT")
                 )
-                ("BiasValue Power"
-                    ("value"	"13.61uW")
-                    ("pspice_param"	"BiasValue Power")
-                )
                 ("DIST"
                     ("value"	"FLAT")
                     ("pspice_param"	"DIST")
@@ -445,10 +422,6 @@
                     ("value"	"200k")
                     ("pspice_param"	"VALUE")
                     ("distrib"	"FLAT")
-                )
-                ("BiasValue Power"
-                    ("value"	"13.94uW")
-                    ("pspice_param"	"BiasValue Power")
                 )
                 ("DIST"
                     ("value"	"FLAT")
@@ -499,10 +472,6 @@
                     ("pspice_param"	"VALUE")
                     ("distrib"	"FLAT")
                 )
-                ("BiasValue Power"
-                    ("value"	"17.45uW")
-                    ("pspice_param"	"BiasValue Power")
-                )
                 ("DIST"
                     ("value"	"FLAT")
                     ("pspice_param"	"DIST")
@@ -551,25 +520,6 @@
                     ("value"	"3.3")
                     ("pspice_param"	"DC")
                 )
-                ("BiasValue Power"
-                    ("value"	"-254.9uW")
-                    ("pspice_param"	"BiasValue Power")
-                )
-            )
-        )
-        ("U1B"
-            ("device_name"	"LTC1047/LT")
-            ("pspice_path"	"X_U1B")
-            ("level"	"0")
-            ("model_params"
-                ("BiasValue Power"
-                    ("value"	"678.5uW")
-                    ("pspice_param"	"BiasValue Power")
-                )
-                ("Schematics' Source Library"
-                    ("value"	"D:\\Pit\\Vendor Libraries\\Linear Tech\\Lin_Tech.slb")
-                    ("pspice_param"	"Schematics' Source Library")
-                )
             )
         )
         ("U2"
@@ -585,10 +535,6 @@
                     ("value"	"0")
                     ("pspice_param"	"TOLSLOPE")
                 )
-                ("BiasValue Power"
-                    ("value"	"270.9uW")
-                    ("pspice_param"	"BiasValue Power")
-                )
             )
         )
         ("R5"
@@ -600,10 +546,6 @@
                     ("value"	"10k")
                     ("pspice_param"	"VALUE")
                     ("distrib"	"FLAT")
-                )
-                ("BiasValue Power"
-                    ("value"	"235.5uW")
-                    ("pspice_param"	"BiasValue Power")
                 )
                 ("DIST"
                     ("value"	"FLAT")
@@ -642,6 +584,28 @@
                 ("POWER"	"0.25")
                 ("SLOPE"	"0.005")
                 ("MAX_TEMP"	"200.0")
+            )
+        )
+        ("U3"
+            ("device_name"	"LTC1050/LT")
+            ("pspice_path"	"X_U3")
+            ("level"	"0")
+            ("model_params"
+                ("Schematics' Source Library"
+                    ("value"	"D:\\Pit\\Vendor Libraries\\Linear Tech\\Lin_Tech.slb")
+                    ("pspice_param"	"Schematics' Source Library")
+                )
+            )
+        )
+        ("U4"
+            ("device_name"	"LTC1050/LT")
+            ("pspice_path"	"X_U4")
+            ("level"	"0")
+            ("model_params"
+                ("Schematics' Source Library"
+                    ("value"	"D:\\Pit\\Vendor Libraries\\Linear Tech\\Lin_Tech.slb")
+                    ("pspice_param"	"Schematics' Source Library")
+                )
             )
         )
     )

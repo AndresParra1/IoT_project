@@ -20,7 +20,7 @@ Processing CAD model (for field results)
 	[Accuracy improvement for long shapes in inhomogeneous mesh regions]
 Version 2019.5 (build 20190426)
 PBA version 2019042619
-2020 Aug 30 (Sun): 11:03:40
+2020 Sep 15 (Tue): 22:02:20
 ========================================================================
 
 ===========================================
@@ -33,7 +33,7 @@ Processing CAD model
 	[Accuracy improvement for long shapes in inhomogeneous mesh regions]
 Version 2019.5 (build 20190426)
 PBA version 2019042619
-2020 Aug 30 (Sun): 11:03:40
+2020 Sep 15 (Tue): 22:02:20
 ========================================================================
 
 ----------------------------------------------
@@ -43,25 +43,25 @@ Used point accuracy enhancement value: 75.00%.
 =============================================================================
 Mesh statistics:
 -----------------------------------------------------------------------------
-Minimum edge length (x): 2 @ mesh line 21 (x)
-Maximum edge length (x): 26.6 @ mesh line 26 (x)
-Minimum face area (x): 12 @ mesh lines 18 | 7 (y | z)
-Maximum face area (x): 768 @ mesh lines 23 | 1 (y | z)
-Minimum edge length (y): 2 @ mesh line 18 (y)
-Maximum edge length (y): 26.6 @ mesh line 23 (y)
-Minimum face area (y): 12 @ mesh lines 7 | 21 (z | x)
-Maximum face area (y): 768 @ mesh lines 1 | 26 (z | x)
-Minimum edge length (z): 5.98 @ mesh line 7 (z)
-Maximum edge length (z): 28.9 @ mesh line 1 (z)
-Minimum face area (z): 4 @ mesh lines 21 | 18 (x | y)
-Maximum face area (z): 705 @ mesh lines 26 | 23 (x | y)
-Maximum mesh face aspect ratio (x): 14.5 : 1.0  @ mesh lines 18 | 1 (y | z)
-Maximum mesh face aspect ratio (y): 14.5 : 1.0  @ mesh lines 1 | 21 (z | x)
-Maximum mesh face aspect ratio (z): 13.3 : 1.0  @ mesh lines 26 | 18 (x | y)
+Minimum edge length (x): 2 @ mesh line 14 (x)
+Maximum edge length (x): 29.2 @ mesh line 28 (x)
+Minimum face area (x): 6.35 @ mesh lines 8 | 8 (y | z)
+Maximum face area (x): 744 @ mesh lines 30 | 0 (y | z)
+Minimum edge length (y): 1.5 @ mesh line 8 (y)
+Maximum edge length (y): 29.2 @ mesh line 30 (y)
+Minimum face area (y): 8.46 @ mesh lines 8 | 14 (z | x)
+Maximum face area (y): 744 @ mesh lines 0 | 28 (z | x)
+Minimum edge length (z): 4.23 @ mesh line 8 (z)
+Maximum edge length (z): 25.4 @ mesh line 0 (z)
+Minimum face area (z): 3 @ mesh lines 14 | 8 (x | y)
+Maximum face area (z): 855 @ mesh lines 28 | 30 (x | y)
+Maximum mesh face aspect ratio (x): 17 : 1.0  @ mesh lines 8 | 0 (y | z)
+Maximum mesh face aspect ratio (y): 12.7 : 1.0  @ mesh lines 0 | 14 (z | x)
+Maximum mesh face aspect ratio (z): 19.5 : 1.0  @ mesh lines 28 | 8 (x | y)
 =============================================================================
 
 ==============================================================================
-Available resources to store TST cells: 2147473845 (21908527.29% of mesh size)
+Available resources to store TST cells: 2147469247 (14912980.88% of mesh size)
 ==============================================================================
 
 ==================================================================================================
@@ -73,7 +73,6 @@ Priorities are sorted in ascending order beginning with the lowest priority
 Priority:   1, shape   3: component1:Substrate, material: Rogers RO3010 (lossy), float:   0.00e+00, wire: false, sheet: false, human: false, PEC: false, SI: false, face port:   0, feature ID:      -1
 Priority:   2, shape   2: component1:Patch, material: Copper (annealed), float:   0.00e+00, wire: false, sheet: false, human: false, PEC:  true, SI:  true, face port:   0, feature ID:      -1
 Priority:   2, shape   1: component1:Ground, material: Copper (annealed), float:   0.00e+00, wire: false, sheet: false, human: false, PEC:  true, SI:  true, face port:   0, feature ID:      -1
-Priority:   3, shape   4: discrete_face_port:1, material: PEC, float:   0.00e+00, wire: false, sheet:  true, human: false, PEC:  true, SI: false, face port:   1, feature ID:      -1
  
 ==================================================================================================
  
@@ -110,7 +109,7 @@ Node order
 ------------------------------------------------------------
 
 1xN000:  <<<<<<<<<<<<<<<<<<<<<<<<
-         2020 Aug30 (Sun): 11         <<<<<<<<<<<<<<<<<<<<<<<<
+         2020 Sep15 (Tue): 22         <<<<<<<<<<<<<<<<<<<<<<<<
 
 1xN000:  ==========================================================================
           - pinning rule in use   : PINNING_RULE_MCALC_SKIP_ALL
@@ -134,7 +133,7 @@ Node order
          	[PBA version: default]
          Version 2019.5 (build 20190426)
          PBA version 2019042619
-         2020 Aug 30 (Sun): 11:03:41
+         2020 Sep 15 (Tue): 22:02:21
          =======================================
 
 1xN000:  ----------------------------------------------
@@ -151,7 +150,6 @@ Node order
          Priority:   3, shape   3: component1:Substrate, material: Rogers RO3010 (lossy)
          Priority:   4, shape   1: component1:Ground, material: Copper (annealed)
          Priority:   4, shape   2: component1:Patch, material: Copper (annealed)
-         Priority:   5, shape   4: discrete_face_port:1, material: PEC
 
          ==================================================================================================
 
@@ -183,9 +181,9 @@ Node order
          accuracy mode:
          ------------------------------------------------------------------------------
 
-1xN000:  discrete face port "1" is connected to metal material.
+1xN000:  discrete edge port "1" is connected to metal material.
 1xN000:  ----------------------------------------------------------------
-         The following discrete face port is connected to metal material:
+         The following discrete edge port is connected to metal material:
          	1
          ----------------------------------------------------------------
 
@@ -194,7 +192,7 @@ Node order
          =================================
 
 1xN000:  >>>>>>>>>>>>>>>>>>>>>>>>
-         2020 Aug30 (Sun): 11         >>>>>>>>>>>>>>>>>>>>>>>>
+         2020 Sep15 (Tue): 22         >>>>>>>>>>>>>>>>>>>>>>>>
 
 
 

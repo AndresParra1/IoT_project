@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<SchematicTopology Version="2.3" Seed="1" Grid="25">
-    <BasePath>C:/Users/Cthulhu/AppData/Local/Temp/CSTDE1/ANTENA/Model/DS</BasePath>
+<SchematicTopology Version="2.3" Seed="19" Grid="25">
+    <BasePath>C:/Users/Cthulhu/Downloads/IoT_project-master/CSTStudio/ANTENA/Model/DS</BasePath>
     <Block ForeignId="69827360" Id="1" Class="MWSSCHEM">
         <Size Height="150" Width="150"/>
         <Pins>

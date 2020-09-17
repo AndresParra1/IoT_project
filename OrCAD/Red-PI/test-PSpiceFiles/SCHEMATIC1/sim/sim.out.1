@@ -1,0 +1,54 @@
+
+**** 09/16/20 20:02:25 ****** PSpice 17.2.0 (March 2016) ****** ID# 0 ********
+
+ ** Profile: "SCHEMATIC1-sim"  [ C:\Users\Cthulhu\Downloads\IoT_project-master\OrCAD\Red-PI\test-pspicefiles\schematic1\sim.sim ] 
+
+
+ ****     CIRCUIT DESCRIPTION
+
+
+******************************************************************************
+
+
+
+
+** Creating circuit file "sim.cir" 
+** WARNING: THIS AUTOMATICALLY GENERATED FILE MAY BE OVERWRITTEN BY SUBSEQUENT SIMULATIONS
+
+*Libraries: 
+* Profile Libraries :
+* Local Libraries :
+* From [PSPICE NETLIST] section of C:\Users\Cthulhu\AppData\Roaming\SPB_Data\cdssetup\OrCAD_PSpice\17.2.0\PSpice.ini file:
+.lib "nom.lib" 
+
+*Analysis directives: 
+.TRAN  0 100N 0 0.01n 
+.OPTIONS ADVCONV
+.PROBE64 V(alias(*)) I(alias(*)) W(alias(*)) D(alias(*)) NOISE(alias(*)) 
+.INC "..\SCHEMATIC1.net" 
+
+
+
+**** INCLUDING SCHEMATIC1.net ****
+* source TEST
+V_V1         N14486 N16872  AC 0
++SIN 0 3.3 915e6 0 0 0
+R_R2         N15853 N14520  19 TC=0,0 
+C_C1         0 N14486  34.8p  TC=0,0 
+C_C2         0 N14520  52.2p  TC=0,0 
+L_L1         N14486 N14520  1.40n  
+C_C3         0 N15853  36.4p  TC=0,0 
+I_I1         N16872 0 DC 0Adc AC 0Aac
++SIN 0 15.5m 915e6 0 0 0
+
+**** RESUMING sim.cir ****
+.END
+
+ERROR(ORPSIM-15142): Node N14486 is floating
+
+ERROR(ORPSIM-15142): Node N16872 is floating
+
+ERROR(ORPSIM-15142): Node N15853 is floating
+
+ERROR(ORPSIM-15142): Node N14520 is floating
+

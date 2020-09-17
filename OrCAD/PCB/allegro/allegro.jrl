@@ -1,0 +1,82 @@
+\t (00:00:04) allegro 17.2 P028 Windows SPB 64-bit Edition
+\t (00:00:04)     Journal start - Wed Sep 16 16:22:19 2020
+\t (00:00:04)         Host=DESKTOP-E8EG2LF User=Cthulhu Pid=10504 CPUs=8
+\t (00:00:04) CmdLine= c:\cadence\spb_17.2\tools\bin\allegro.exe C:\Users\Cthulhu\Downloads\PCB\allegro\PCB.brd
+\t (00:00:04) 
+   (00:00:04) Loading axlcore.cxt 
+\t (00:00:08) Opening existing design...
+\d (00:00:08) Design opened: C:/Users/Cthulhu/Downloads/PCB/allegro/PCB.brd
+\i (00:00:08) trapsize 4045
+\i (00:00:08) trapsize 4137
+\i (00:00:08) trapsize 4137
+\i (00:00:08) shapeedit 
+\i (00:00:10) zoom in 1 
+\i (00:00:10) setwindow pcb
+\i (00:00:10) zoom in 42.4073 11.2978
+\i (00:00:10) trapsize 2068
+\i (00:00:10) zoom out 1 
+\i (00:00:10) setwindow pcb
+\i (00:00:10) zoom out 43.1520 12.7871
+\i (00:00:10) trapsize 4137
+\i (00:00:10) roam start
+\i (00:00:10) roam x -48
+\i (00:00:10) roam y 16
+\i (00:00:10) roam x -64
+\i (00:00:10) roam y 16
+\i (00:00:11) roam x -16
+\i (00:00:11) roam x -64
+\i (00:00:11) roam y -16
+\i (00:00:11) roam end
+\i (00:00:11) zoom in 1 
+\i (00:00:11) setwindow pcb
+\i (00:00:11) zoom in 34.0507 7.8228
+\i (00:00:11) trapsize 2068
+\i (00:00:12) roam start
+\i (00:00:12) roam x -32
+\i (00:00:12) roam y -48
+\i (00:00:12) roam x -48
+\i (00:00:12) roam y -64
+\i (00:00:12) roam x -32
+\i (00:00:12) roam y -48
+\i (00:00:12) roam x -16
+\i (00:00:12) roam y -16
+\i (00:00:12) roam y -32
+\i (00:00:12) roam x -16
+\i (00:00:12) roam y -32
+\i (00:00:12) roam end
+\i (00:00:13) zoom out 1 
+\i (00:00:13) setwindow pcb
+\i (00:00:13) zoom out 27.8040 17.7927
+\i (00:00:13) trapsize 4137
+\i (00:00:13) roam start
+\i (00:00:13) roam y 48
+\i (00:00:13) roam y 32
+\i (00:00:14) roam end
+\i (00:00:17) zoom in 1 
+\i (00:00:17) setwindow pcb
+\i (00:00:17) zoom in 39.1806 7.4091
+\i (00:00:17) trapsize 2068
+\i (00:00:17) roam start
+\i (00:00:17) roam x -48
+\i (00:00:17) roam y -16
+\i (00:00:17) roam x -48
+\i (00:00:17) roam y -32
+\i (00:00:17) roam x -48
+\i (00:00:17) roam y -16
+\i (00:00:17) roam x -32
+\i (00:00:17) roam y -16
+\i (00:00:18) roam end
+\i (00:00:18) zoom out 1 
+\i (00:00:18) setwindow pcb
+\i (00:00:18) zoom out 30.5757 10.7600
+\i (00:00:18) trapsize 4137
+\i (00:00:20) zoom fit 
+\i (00:00:20) trapsize 2500
+\i (00:00:20) zoom out 1 
+\i (00:00:20) setwindow pcb
+\i (00:00:20) zoom out 6.9664 37.4987
+\i (00:00:21) trapsize 5000
+\i (00:00:21) zoom fit 
+\i (00:00:21) trapsize 2500
+\i (00:04:43) exit 
+\t (00:04:43)     Journal end - Wed Sep 16 16:26:58 2020

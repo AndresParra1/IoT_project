@@ -16,5 +16,5 @@ Sensor de humedad y temperatura con modulador integrado de LoRa para cultivo de 
 Descripción
 -------------
 
-En este GitHub se encuentran los archivos de simulaciones utilizados para la tercera entrega del proyecto de la asignatura Diseño de Sistemas Electrónicos el cual consta del sensado de humedad y temperatura con modulador integrado de Lora para cultivo de forraje verde hidróponico. Para más información por favor ver el informe adjunto.
+En este GitHub se encuentran los archivos de simulaciones utilizados para el proyecto de la asignatura Diseño de Sistemas Electrónicos el cual consta del sensado de humedad y temperatura con modulador integrado de Lora para cultivo de forraje verde hidróponico. Para más información por favor ver el informe adjunto.
 

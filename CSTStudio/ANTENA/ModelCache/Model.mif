@@ -3,9 +3,8 @@
 [PCB_BODIES: False]
 [PCB_IMPORT: False]
 [DISABLE_FAST_LOAD: False]
-[WCS: 0 0 0 0 0 1 1 0 0]
-[BBOX:-101.93081933333333 207.93081933333332 -101.93081933333333 144.93081933333332 -99.730819333333329 101.13081933333333]
-[BBOX_STRUCTURE:-2 108 -2 45 0.20000000000000007 1.2000000000000002]
+[BBOX:-101.93081933333333 175.93081933333332 -101.93081933333333 144.93081933333332 -99.730819333333329 101.13081933333333]
+[BBOX_STRUCTURE:-2 76 -2 45 0.20000000000000007 1.2000000000000002]
 [UNITS]
      .Geometry "mm" 
      .Frequency "MHz" 
@@ -189,7 +188,7 @@ Solver.FrequencyRange "0", "1500"
      .NLADirectionX "1"
      .NLADirectionY "0"
      .NLADirectionZ "0"
-     .Colour "1", "1", "0" 
+     .Colour "0.572549", "0.333333", "0.0117647" 
      .Wireframe "False" 
      .Reflection "False" 
      .Allowoutline "True" 
@@ -350,7 +349,7 @@ Solver.FrequencyRange "0", "1500"
      .NLADirectionX "1"
      .NLADirectionY "0"
      .NLADirectionZ "0"
-     .Colour "0.94", "0.82", "0.76" 
+     .Colour "0", "0.776471", "0" 
      .Wireframe "False" 
      .Reflection "False" 
      .Allowoutline "True" 
@@ -482,23 +481,20 @@ Solver.FrequencyRange "0", "1500"
      .Transparency "0" 
      .Create
 [ENDMATERIAL]
-[DISCRETEFACE: 1]
-(INDEXES)143 0 1 2(ENDINDEXES)
+[DISCRETEEDGE: 1]
      .Type "SParameter" 
      .Label "" 
      .Folder "" 
      .Impedance "50.0" 
      .VoltagePortImpedance "0.0" 
-     .VoltageAmplitude "1.0" 
-     .CurrentAmplitude "1.0" 
-     .SetP1 "True", "25", "7", "1.2000000000000002" 
-     .SetP2 "True", "20", "7", "1.2000000000000002" 
-     .LocalCoordinates "True" 
+     .Voltage "1.0" 
+     .Current "1.0" 
+     .SetP1 "False", "23", "7", "1.1000000000000001" 
+     .SetP2 "False", "20", "7", "1.1000000000000001" 
      .InvertDirection "False" 
-     .CenterEdge "True" 
+     .LocalCoordinates "True" 
      .Monitor "True" 
-     .UseProjection "False" 
-     .ReverseProjection "False" 
-     .ReferenceWCS "25", "7", "1.2", "0", "0", "1", "1", "-0", "0" 
-(TRANSFORM) "1", "0", "0", "0", "1", "0", "0", "0", "1"| "0", "0", "0"(ENDTRANSFORM)
-[ENDDISCRETEFACE]
+     .Radius "0" 
+     .Wire "" 
+     .Position "end1" 
+[ENDDISCRETEEDGE]

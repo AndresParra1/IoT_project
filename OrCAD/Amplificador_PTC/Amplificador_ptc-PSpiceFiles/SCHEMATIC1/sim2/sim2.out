@@ -1,0 +1,212 @@
+
+**** 09/16/20 18:26:29 ****** PSpice 17.2.0 (March 2016) ****** ID# 0 ********
+
+ ** Profile: "SCHEMATIC1-sim2"  [ C:\Users\Cthulhu\Downloads\IoT_project-master\OrCAD\Amplificador_PTC\Amplificador_ptc-PSpiceFiles\S
+
+
+ ****     CIRCUIT DESCRIPTION
+
+
+******************************************************************************
+
+
+
+
+** Creating circuit file "sim2.cir" 
+** WARNING: THIS AUTOMATICALLY GENERATED FILE MAY BE OVERWRITTEN BY SUBSEQUENT SIMULATIONS
+
+*Libraries: 
+* Profile Libraries :
+* Local Libraries :
+* From [PSPICE NETLIST] section of C:\Users\Cthulhu\AppData\Roaming\SPB_Data\cdssetup\OrCAD_PSpice\17.2.0\PSpice.ini file:
+.lib "nom.lib" 
+
+*Analysis directives: 
+.TRAN  0 1000ns 0 
+.OPTIONS ADVCONV
+.PROBE64 V(alias(*)) I(alias(*)) W(alias(*)) D(alias(*)) NOISE(alias(*)) 
+.INC "..\SCHEMATIC1.net" 
+
+
+
+**** INCLUDING SCHEMATIC1.net ****
+* source AMPLIFICADOR_PTC
+R_R1         N00456 N00366  10k TC=0,0 
+R_R2         N00397 VCC  195.23k TC=0,0 
+R_R3         0 N00397  200k TC=0,0 
+R_R4         VOUT N00366  120k TC=0,0 
+V_V2         VCC 0 3.3
+X_U2         N00451 VCC TFPT1206L1002 PARAMS: TOL25=0 TOLSLOPE=0
+R_R5         0 N00451  10k TC=0,0 
+X_U3         N00451 N00456 VCC 0 N00456 LTC1050/LT
+X_U4         N00397 N00366 VCC 0 VOUT LTC1050/LT
+
+**** RESUMING sim2.cir ****
+.END
+
+**** 09/16/20 18:26:29 ****** PSpice 17.2.0 (March 2016) ****** ID# 0 ********
+
+ ** Profile: "SCHEMATIC1-sim2"  [ C:\Users\Cthulhu\Downloads\IoT_project-master\OrCAD\Amplificador_PTC\Amplificador_ptc-PSpiceFiles\S
+
+
+ ****     Diode MODEL PARAMETERS
+
+
+******************************************************************************
+
+
+
+
+               X_U3.DM1        X_U3.DM2        X_U3.DM3        X_U3.DMG1       
+          IS   10.000000E-21  800.000000E-18  100.000000E-18    7.000000E-12 
+           N                                                    2.31         
+          BV                   19.8                                          
+
+
+               X_U3.DMG2       X_U4.DM1        X_U4.DM2        X_U4.DM3        
+          IS    6.300000E-12   10.000000E-21  800.000000E-18  100.000000E-18 
+           N    2.31                                                         
+          BV                                   19.8                          
+
+
+               X_U4.DMG1       X_U4.DMG2       
+          IS    7.000000E-12    6.300000E-12 
+           N    2.31            2.31         
+
+
+**** 09/16/20 18:26:29 ****** PSpice 17.2.0 (March 2016) ****** ID# 0 ********
+
+ ** Profile: "SCHEMATIC1-sim2"  [ C:\Users\Cthulhu\Downloads\IoT_project-master\OrCAD\Amplificador_PTC\Amplificador_ptc-PSpiceFiles\S
+
+
+ ****     MOSFET MODEL PARAMETERS
+
+
+******************************************************************************
+
+
+
+
+               X_U3.PM1        X_U3.PM2        X_U4.PM1        X_U4.PM2        
+               PMOS            PMOS            PMOS            PMOS            
+       LEVEL    1               1               1               1            
+           L  100.000000E-06  100.000000E-06  100.000000E-06  100.000000E-06 
+           W  100.000000E-06  100.000000E-06  100.000000E-06  100.000000E-06 
+         VTO   -1.1            -1.100001       -1.1            -1.100001     
+          KP    1.850600E-03    1.850600E-03    1.850600E-03    1.850600E-03 
+       GAMMA    0               0               0               0            
+         PHI     .6              .6              .6              .6          
+      LAMBDA    0               0               0               0            
+          IS   10.000000E-15   10.000000E-15   10.000000E-15   10.000000E-15 
+          JS    0               0               0               0            
+          PB     .8              .8              .8              .8          
+        PBSW     .8              .8              .8              .8          
+          CJ    0               0               0               0            
+        CJSW    0               0               0               0            
+        CGSO    0               0               0               0            
+        CGDO    0               0               0               0            
+        CGBO    0               0               0               0            
+         TOX    0               0               0               0            
+          XJ    0               0               0               0            
+       UCRIT   10.000000E+03   10.000000E+03   10.000000E+03   10.000000E+03 
+      DIOMOD    1               1               1               1            
+         VFB    0               0               0               0            
+        LETA    0               0               0               0            
+        WETA    0               0               0               0            
+          U0    0               0               0               0            
+        TEMP    0               0               0               0            
+         VDD    5               5               5               5            
+       XPART    0               0               0               0            
+
+
+**** 09/16/20 18:26:29 ****** PSpice 17.2.0 (March 2016) ****** ID# 0 ********
+
+ ** Profile: "SCHEMATIC1-sim2"  [ C:\Users\Cthulhu\Downloads\IoT_project-master\OrCAD\Amplificador_PTC\Amplificador_ptc-PSpiceFiles\S
+
+
+ ****     INITIAL TRANSIENT SOLUTION       TEMPERATURE =   27.000 DEG C
+
+
+******************************************************************************
+
+
+
+ NODE   VOLTAGE     NODE   VOLTAGE     NODE   VOLTAGE     NODE   VOLTAGE
+
+
+(  VCC)    3.3000  ( VOUT)    1.9904  (N00366)    1.6699 (N00397)    1.6699     
+
+(N00451)    1.6432 (N00456)    1.6432 (X_U3.1)    1.6432 (X_U3.8)-774.1E-09     
+
+(X_U4.1)    1.9904 (X_U4.8)-938.2E-09 (X_U3.12)    2.9979                       
+
+(X_U3.13)    3.0764                   (X_U3.14)     .2100                       
+
+(X_U3.18)-479.5E-06                   (X_U3.19) 26.92E-12                       
+
+(X_U3.20) 26.92E-12                   (X_U3.21)    2.6927                       
+
+(X_U3.60) 2.109E-21                   (X_U3.70)    3.3000                       
+
+(X_U3.80)     .1273                   (X_U3.90)     .1273                       
+
+(X_U4.12)    3.0246                   (X_U4.13)    3.4236                       
+
+(X_U4.14)     .5572                   (X_U4.18) 479.5E-06                       
+
+(X_U4.19) 26.94E-12                   (X_U4.20) 26.94E-12                       
+
+(X_U4.21)    2.6937                   (X_U4.60) 5.595E-21                       
+
+(X_U4.70)    3.3000                   (X_U4.80)     .1273                       
+
+(X_U4.90)     .1273                   (X_U3.131)    3.3000                      
+
+(X_U3.141) 210.1E-12                  (X_U4.131)    3.3000                      
+
+(X_U4.141) 557.3E-12                  (X_U2.x1.H) 544.5E-09                     
+
+(X_U2.x1.J) 1.089E-12                 (X_U2.x1.T)    1.0000                     
+
+(X_U2.x1.AOUT) 10.08E+03              (X_U2.x1.FTEMP)   27.0000                 
+
+(X_U2.x1.TOTTOL)    0.0000            (X_U2.x1.TOLSLOP)     .0667               
+
+(X_U2.x1.TOLSLOP2)    0.0000          
+
+
+
+
+    VOLTAGE SOURCE CURRENTS
+    NAME         CURRENT
+
+    V_V2        -2.173E-03
+    X_U3.VOD1   -4.795E-16
+    X_U3.VOD2   -2.693E-12
+    X_U3.VC      2.762E-11
+    X_U3.VE      2.101E-13
+    X_U4.VOD1    4.795E-16
+    X_U4.VOD2   -2.694E-12
+    X_U4.VC     -1.354E-13
+    X_U4.VE      5.573E-13
+
+    TOTAL POWER DISSIPATION   7.17E-03  WATTS
+
+
+
+          JOB CONCLUDED
+
+**** 09/16/20 18:26:29 ****** PSpice 17.2.0 (March 2016) ****** ID# 0 ********
+
+ ** Profile: "SCHEMATIC1-sim2"  [ C:\Users\Cthulhu\Downloads\IoT_project-master\OrCAD\Amplificador_PTC\Amplificador_ptc-PSpiceFiles\S
+
+
+ ****     JOB STATISTICS SUMMARY
+
+
+******************************************************************************
+
+
+
+  Total job time (using Solver 1)   =         .09
+

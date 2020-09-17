@@ -3,7 +3,6 @@
   <SpecialMaterials>
     <Background type="NORMAL"/>
     <Material name="Copper (annealed)" type="FIELDFREE"/>
-    <Material name="PEC" type="FIELDFREE"/>
   </SpecialMaterials>
   <SimulationProperties dB_Amplitude="20" encoded_unit="&amp;U:A^1.:m^-1" fieldname="&lt;name missing&gt;" fieldtype="Surface current" frequency="910"/>
   <MetaGeometryFile filename="model.gex" lod="1"/>
@@ -14,7 +13,7 @@
     </Frame>
   </ResultGroups>
   <ResultDataType complex="1" timedomain="0" vector="1"/>
-  <SimulationDomain min="-101.9308166504 -101.9308166504 -99.73081970215" max="207.9308166504 144.9308166504 101.130821228"/>
+  <SimulationDomain min="-101.9308166504 -101.9308166504 -99.73081970215" max="175.9308166504 144.9308166504 101.130821228"/>
   <PlotSettings Clipping="Possible" Plot="2" ignore_symmetry="0" deformation="0"/>
   <Source type="SOLVER"/>
 </MetaResultFile>

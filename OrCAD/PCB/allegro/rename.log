@@ -1,0 +1,41 @@
+(---------------------------------------------------------------------)
+(                                                                     )
+(    RENAME REFDES                                                    )
+(                                                                     )
+(    Drawing          : PCB.brd                                       )
+(    Software Version : 17.2P028                                      )
+(    Date/Time        : Wed Sep 16 13:46:29 2020                      )
+(                                                                     )
+(---------------------------------------------------------------------)
+
+
+Renaming components on BOTH_SIDES on entire BOARD
+    Extents: (-40.0000,-40.0000) (460.0000,460.0000)
+
+Sequencing the reference designators SEQUENTIALLY
+Row processing direction : to the RIGHT, from the top down.
+
+OLD U7    NEW RET1
+OLD J2    NEW JT1
+OLD J5    NEW RET2
+OLD R6    NEW RET3
+OLD R9    NEW RET4
+OLD R8    NEW RET5
+OLD R7    NEW RET6
+OLD R10    NEW RET7
+OLD C3    NEW RET8
+OLD J6    NEW JT2
+OLD U3    NEW RET9
+OLD J3    NEW RET10
+OLD J4    NEW RET11
+OLD L2    NEW RET12
+OLD C4    NEW RET13
+OLD D1    NEW RET14
+OLD J1    NEW RET15
+OLD C1    NEW RET16
+OLD J7    NEW PORT1
+OLD L3    NEW RET17
+OLD C2    NEW RET18
+Sequencing the reference designators SEQUENTIALLY
+Row processing direction : to the LEFT, from the top down.
+

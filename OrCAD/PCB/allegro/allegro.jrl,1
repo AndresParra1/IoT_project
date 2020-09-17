@@ -1,0 +1,14 @@
+\t (00:00:04) allegro 17.2 P028 Windows SPB 64-bit Edition
+\t (00:00:04)     Journal start - Wed Sep 16 16:11:25 2020
+\t (00:00:04)         Host=DESKTOP-E8EG2LF User=Cthulhu Pid=6412 CPUs=8
+\t (00:00:04) CmdLine= c:\cadence\spb_17.2\tools\bin\allegro.exe -mpssession Cthulhu C:\USERS\CTHULHU\DOWNLOADS\PCB\allegro\PCB.brd
+\t (00:00:04) 
+   (00:00:04) Loading axlcore.cxt 
+\t (00:00:05) Opening existing design...
+\d (00:00:05) Design opened: C:/USERS/CTHULHU/DOWNLOADS/PCB/allegro/PCB.brd
+\i (00:00:05) trapsize 4045
+\i (00:00:05) trapsize 4137
+\i (00:00:06) trapsize 4137
+\i (00:00:06) shapeedit 
+\i (00:02:15) exit 
+\t (00:02:15)     Journal end - Wed Sep 16 16:13:36 2020

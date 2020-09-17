@@ -1,19 +1,15 @@
-30/Aug/2020 11:03:40  *** Warning ***
+15/Sep/2020 22:02:20  *** Warning ***
                       
                       This software is licensed for personal and educational purposes only.
                       
                       ------------------------------------------------------------------------------
-30/Aug/2020 11:03:40  To support PBA version "default" the update schema for discrete face ports /
-                      face lumped elements is set to "distributed" 
-                      
-                      ------------------------------------------------------------------------------
-30/Aug/2020 11:03:40  The following farfield monitor(s) have been adjusted to model box [-7.90668,
-                      113.907, -7.90668, 50.9067, -4.78791, 7.17555].
+15/Sep/2020 22:02:20  The following farfield monitor(s) have been adjusted to model box [-6.31498,
+                      80.315, -6.31533, 49.3153, -3.13535, 5.33057].
                         farfield (f=910), farfield (f=915), farfield (f=920). More...
                       
                       ------------------------------------------------------------------------------
-30/Aug/2020 11:03:40  
-                      Solver started at: 11:03 AM Sunday, 30. August 2020 (SA Pacific Standard Time)
+15/Sep/2020 22:02:20  
+                      Solver started at: 10:02 PM Tuesday, 15. September 2020 (SA Pacific Standard Time)
                       
                         Module:  Time Domain: S-Parameter (Win 64)
                         Version: 2019.5 Release from 2019-04-26 (change 688563)
@@ -22,7 +18,7 @@
                       ------------------------------------------------------------------------------
 
                       ------------------------------------------------------------------------------
-30/Aug/2020 11:03:40  ======================================================================
+15/Sep/2020 22:02:20  ======================================================================
                        Solver cycle: 1
                       ======================================================================
                       
@@ -31,18 +27,18 @@
                       
                       
                       ------------------------------------------------------------------------------
-30/Aug/2020 11:03:40  Units settings: 
+15/Sep/2020 22:02:20  Units settings: 
                       
                         Dimensions: mm
                         Frequency:  MHz
                         Time:       ns
                       
                       ------------------------------------------------------------------------------
-30/Aug/2020 11:03:44  The following discrete face port is connected to metal material:
+15/Sep/2020 22:02:25  The following discrete edge port is connected to metal material:
                       	1
                       
                       ------------------------------------------------------------------------------
-30/Aug/2020 11:03:44  Mesh statistics:
+15/Sep/2020 22:02:25  Mesh statistics:
                       
                          Hexahedral mesh type: PBA [Version: default]
                       
@@ -53,62 +49,62 @@
                          Used point accuracy enhancement value: 75.00%.
                          PBA fill limit: 99.00% (inverse)
 
-30/Aug/2020 11:03:45  Boundary conditions: 
+15/Sep/2020 22:02:26  Boundary conditions: 
                       
                         YZsymmetry: none
                         XZsymmetry: none
                         XYsymmetry: none
                       
-                        Xmin: expanded open, 4 Layer, depth 106.204 mm
-                        Xmax: expanded open, 4 Layer, depth 106.204 mm
+                        Xmin: expanded open, 4 Layer, depth 116.939 mm
+                        Xmax: expanded open, 4 Layer, depth 116.939 mm
                       
-                        Ymin: expanded open, 4 Layer, depth 106.204 mm
-                        Ymax: expanded open, 4 Layer, depth 106.204 mm
+                        Ymin: expanded open, 4 Layer, depth 116.988 mm
+                        Ymax: expanded open, 4 Layer, depth 116.988 mm
                       
-                        Zmin: expanded open, 4 Layer, depth 115.727 mm
-                        Zmax: expanded open, 4 Layer, depth 114.187 mm
+                        Zmin: expanded open, 4 Layer, depth 101.762 mm
+                        Zmax: expanded open, 4 Layer, depth 100.965 mm
                       
                         PML-Type: Convolution PML
                       
                       ------------------------------------------------------------------------------
-30/Aug/2020 11:03:45  Frequency settings: 
+15/Sep/2020 22:02:26  Frequency settings: 
                       
                         Fmin:         0
                         Fmax:         1500
                         Nfsteps(lin): 1001
                       
                       ------------------------------------------------------------------------------
-30/Aug/2020 11:03:45  Port: 1
+15/Sep/2020 22:02:26  Port: 1
                       
-30/Aug/2020 11:03:45    Discrete element, reference impedance = 50 Ohm
+15/Sep/2020 22:02:26    Discrete element, reference impedance = 50 Ohm
                       
                       ------------------------------------------------------------------------------
-30/Aug/2020 11:03:45  Field update statistics:
+15/Sep/2020 22:02:26  Field update statistics:
                       
-                        Number of components in total: 	54473
-                        Number of lossy metal components:	509
-                        Number of disp. elements:		171
+                        Number of components in total: 	80807
+                        Number of lossy metal components:	748
+                        Number of disp. elements:		305
                       
                       Subcycling state:      Automatically deactivated
                       
                       ------------------------------------------------------------------------------
-30/Aug/2020 11:03:48  
+15/Sep/2020 22:02:29  
                       --------------------------------------------------------------------------------
-30/Aug/2020 11:03:48  Steady state energy criterion met, solver finished successfully.
+15/Sep/2020 22:02:29  Steady state energy criterion met, solver finished successfully.
                       
                       ------------------------------------------------------------------------------
-30/Aug/2020 11:03:48  Frequency domain results normalized to default signal.
+15/Sep/2020 22:02:29  Frequency domain results normalized to default signal.
                       
                       
                       ------------------------------------------------------------------------------
-30/Aug/2020 11:03:48  
+15/Sep/2020 22:02:29  
                         ----------------------------------------------------------------------------
                                             Peak memory used (kB)         Free physical memory (kB) 
                                                                           At begin     Minimum      
                         ----------------------------------------------------------------------------
-                        CAD preparation     21496                         3423440      3423440      
-                        Matrices calc.      27343                         3405273      3388671      
-                        Solver run total    39216                         3447316      3419612      
+                        CAD preparation     21548                         2420380      2420380      
+                        Matrices calc.      35156                         2391601      2374023      
+                        Solver run total    48264                         2445380      2399408      
                         ----------------------------------------------------------------------------
                       
                       --------------------------------------------------------------------------------
@@ -120,55 +116,39 @@
                            Number of CPU threads:               8
                            Hardware info:                  	Hardware Accelerator Device not activated
                       
-                        Number of mesh cells:             	8400
+                        Number of mesh cells:             	12586
                         Excitation duration:              	2.36969917e+000 ns 
                         Calculation time for excitation:  	0 	s
-                        Number of calculated pulse widths:	2.78646 
+                        Number of calculated pulse widths:	3.23445 
                         Steady state accuracy limit:      	-40	dB 
-                        Simulated number of time steps:   	1170 
-                        Maximum number of time steps:     	8397 
+                        Simulated number of time steps:   	1785 
+                        Maximum number of time steps:     	11037 
                         Time step width:
-                           without subcycles:             	5.64365675e-003 ns
-                           used:                          	5.64365675e-003 ns
+                           without subcycles:             	4.29392822e-003 ns
+                           used:                          	4.29392822e-003 ns
                       
                         CAD preparation time:             	0      	s
-                        Matrix calculation time:          	3 	s
+                        Matrix calculation time:          	4 	s
                         Solver setup time:                	2 	s
-                        Solver loop time:                 	0 	s
+                        Solver loop time:                 	1 	s
                         Solver post processing time:      	1 	s
                                                           	------------
-                        Total solver time:                	6 	s
+                        Total solver time:                	8 	s
                       
                       ------------------------------------------------------------------------------
-30/Aug/2020 11:03:48  
+15/Sep/2020 22:02:30  
                         Adaptive port meshing time:          	0      	s
-                        Total solver time (all cycles):      	6      	s
-                        solver initialization and clean-up:  	2      	s
+                        Total solver time (all cycles):      	8      	s
+                        solver initialization and clean-up:  	1      	s
                                                              	------------
-                        Total simulation time:               	8      	s
+                        Total simulation time:               	9      	s
                       
                       ------------------------------------------------------------------------------
-30/Aug/2020 11:03:48  Solver finished at: 11:03 AM Sunday, 30. August 2020
+15/Sep/2020 22:02:30  Solver finished at: 10:02 PM Tuesday, 15. September 2020
                       
                       
                       
                       ------------------------------------------------------------------------------
-30/Aug/2020 11:03:48  To support PBA version "default" the update schema for discrete face ports /
-                      face lumped elements is set to "distributed" 
-                      
-                      ------------------------------------------------------------------------------
-30/Aug/2020 11:03:49  To support PBA version "default" the update schema for discrete face ports /
-                      face lumped elements is set to "distributed" 
-                      
-                      ------------------------------------------------------------------------------
-30/Aug/2020 11:03:49  To support PBA version "default" the update schema for discrete face ports /
-                      face lumped elements is set to "distributed" 
-                      
-                      ------------------------------------------------------------------------------
-30/Aug/2020 11:03:50  Creating parametric 1D results for Run ID 1
-                      
-                      ------------------------------------------------------------------------------
-30/Aug/2020 11:03:50  To support PBA version "default" the update schema for discrete face ports /
-                      face lumped elements is set to "distributed" 
+15/Sep/2020 22:02:32  Creating parametric 1D results for Run ID 1
                       
                       ------------------------------------------------------------------------------

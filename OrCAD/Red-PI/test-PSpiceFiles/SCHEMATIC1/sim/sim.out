@@ -1,7 +1,7 @@
 
-**** 08/30/20 12:25:20 ****** PSpice 17.2.0 (March 2016) ****** ID# 0 ********
+**** 09/16/20 20:04:49 ****** PSpice 17.2.0 (March 2016) ****** ID# 0 ********
 
- ** Profile: "SCHEMATIC1-sim"  [ D:\pi-net\test-PSpiceFiles\SCHEMATIC1\sim.sim ] 
+ ** Profile: "SCHEMATIC1-sim"  [ C:\Users\Cthulhu\Downloads\IoT_project-master\OrCAD\Red-PI\test-pspicefiles\schematic1\sim.sim ] 
 
 
  ****     CIRCUIT DESCRIPTION
@@ -22,7 +22,7 @@
 .lib "nom.lib" 
 
 *Analysis directives: 
-.TRAN  0 44n 40n 0.01n 
+.TRAN  0 100N 0 0.01n 
 .OPTIONS ADVCONV
 .PROBE64 V(alias(*)) I(alias(*)) W(alias(*)) D(alias(*)) NOISE(alias(*)) 
 .INC "..\SCHEMATIC1.net" 
@@ -31,21 +31,23 @@
 
 **** INCLUDING SCHEMATIC1.net ****
 * source TEST
-V_V1         N14484 0  AC 0
-+SIN 0 1 915e6 0 0 0
-R_R1         N14484 N14516  50 TC=0,0 
-R_R2         N14455 N14520  52 TC=0,0 
-C_C1         0 N14516  34.1p  TC=0,0 
-C_C2         0 N14520  33.6p  TC=0,0 
-L_L1         N14516 N14520  1.77n  
-L_L2         N14455 0  0.3478n  
+V_V1         N14486 0  AC 0
++SIN 0 3.3 915e6 0 0 0
+R_R2         N15853 N14520  19 TC=0,0 
+C_C1         0 N14579  34.8p  TC=0,0 
+C_C2         0 N14520  52.2p  TC=0,0 
+L_L1         N14579 N14520  1.40n  
+C_C3         0 N15853  36.4p  TC=0,0 
+I_I1         N14486 0 DC 0Adc AC 0Aac
++SIN 0 15.5m 915e6 0 0 0
+R_R3         N14486 N14579  1n TC=0,0 
 
 **** RESUMING sim.cir ****
 .END
 
-**** 08/30/20 12:25:20 ****** PSpice 17.2.0 (March 2016) ****** ID# 0 ********
+**** 09/16/20 20:04:49 ****** PSpice 17.2.0 (March 2016) ****** ID# 0 ********
 
- ** Profile: "SCHEMATIC1-sim"  [ D:\pi-net\test-PSpiceFiles\SCHEMATIC1\sim.sim ] 
+ ** Profile: "SCHEMATIC1-sim"  [ C:\Users\Cthulhu\Downloads\IoT_project-master\OrCAD\Red-PI\test-pspicefiles\schematic1\sim.sim ] 
 
 
  ****     INITIAL TRANSIENT SOLUTION       TEMPERATURE =   27.000 DEG C
@@ -58,7 +60,7 @@ L_L2         N14455 0  0.3478n
  NODE   VOLTAGE     NODE   VOLTAGE     NODE   VOLTAGE     NODE   VOLTAGE
 
 
-(N14455)    0.0000 (N14484)    0.0000 (N14516)    0.0000 (N14520)    0.0000 
+(N14486)    0.0000 (N14520)    0.0000 (N14579)    0.0000 (N15853)    0.0000 
 
 
 
@@ -74,9 +76,9 @@ L_L2         N14455 0  0.3478n
 
           JOB CONCLUDED
 
-**** 08/30/20 12:25:20 ****** PSpice 17.2.0 (March 2016) ****** ID# 0 ********
+**** 09/16/20 20:04:49 ****** PSpice 17.2.0 (March 2016) ****** ID# 0 ********
 
- ** Profile: "SCHEMATIC1-sim"  [ D:\pi-net\test-PSpiceFiles\SCHEMATIC1\sim.sim ] 
+ ** Profile: "SCHEMATIC1-sim"  [ C:\Users\Cthulhu\Downloads\IoT_project-master\OrCAD\Red-PI\test-pspicefiles\schematic1\sim.sim ] 
 
 
  ****     JOB STATISTICS SUMMARY
@@ -86,5 +88,5 @@ L_L2         N14455 0  0.3478n
 
 
 
-  Total job time (using Solver 1)   =         .05
+  Total job time (using Solver 1)   =         .09
 

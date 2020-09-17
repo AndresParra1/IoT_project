@@ -5,7 +5,7 @@
 [Author]
 Cthulhu
 [Mesh Cells]
-8,400
+12,586
 [Mesh Type]
 Hexahedral
 [Last Problem Type]
@@ -17,5 +17,5 @@ t
 [Results]
 Time Domain: S-Parameter
 [Modeler Unique ID]
-5:antena.cst?cf95d0b008f3fac32cc54a6d75943f59?130862:numberofparameters=9:port=1>mode=1>zre=0>zim=0:::lp1?lp2?ls?tp?tsub?wp1?wp2?ws?k
+5:antena.cst?274b3f20cdbedac0a00697584de2ba49?181085:numberofparameters=9:port=1>mode=1>zre=0>zim=0:::lp1?lp2?ls?tp?tsub?wp1?wp2?ws?k
 [Comment]

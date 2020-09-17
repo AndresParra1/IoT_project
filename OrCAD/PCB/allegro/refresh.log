@@ -1,0 +1,134 @@
+Wed Sep 16 13:50:44 2020				Page     1
+
+
+ 
+Update Symbols/Modules Logfile
+	Wed Sep 16 13:50:44 2020
+
+------ Module Refresh Messages ------
+
+SUMMARY:    Updated 0 out of 0 modules
+
+------ End Module Messages     ------
+
+
+
+(---------------------------------------------------------------------)
+(                                                                     )
+(    Refresh Symbol                                                   )
+(                                                                     )
+(    Drawing          : PCB.brd                                       )
+(    Software Version : 17.2P019                                      )
+(    Date/Time        : Wed Sep 16 13:50:44 2020                      )
+(                                                                     )
+(---------------------------------------------------------------------)
+
+
+Wed Sep 16 13:50:44 2020				Page     1
+
+
+------ Symbol Refresh Directives ------
+
+Input design  = 'C:/USERS/CTHULHU/DOWNLOADS/PCB/allegro/PCB.brd'
+Output design = ''
+
+Update mechanical symbols              = 'NO'
+Update format symbols                  = 'NO'
+Update package symbols                 = 'YES'
+Update shape/flash symbols             = 'NO'
+Update symbol padstacks                = 'NO'
+Preserve padstacks replaced on pins    = 'NO'
+Reset symbol text and size locations   = 'NO'
+Reset Pin Escapes (fanouts)            = 'NO'
+Ripup Etch                             = 'NO'
+Reset custom drill data                = 'NO'
+Symbol list file                       = 'C:/Users/Cthulhu/AppData/Local/Temp/#Taaaaav04864.tmp'
+
+
+------ Library Paths ------
+PSMPATH =  . 
+           symbols 
+           .. 
+           ../symbols 
+           c:/cadence/spb_17.2/share/local/pcb/symbols 
+           c:/cadence/spb_17.2/share/pcb/pcb_lib/symbols 
+           c:/cadence/spb_17.2/share/pcb/allegrolib/symbols 
+
+PADPATH =  . 
+           symbols 
+           .. 
+           ../symbols 
+           c:/cadence/spb_17.2/share/local/pcb/padstacks 
+           c:/cadence/spb_17.2/share/pcb/pcb_lib/symbols 
+           c:/cadence/spb_17.2/share/pcb/allegrolib/symbols 
+
+
+------ Symbol Refresh Messages ------
+
+'QFN50P200X150X40-10N'  symbol refreshed successfully.
+'MSOP-8_MS'  symbol refreshed successfully.
+'JUMPER4'  symbol refreshed successfully.
+'JUMPER2'  symbol refreshed successfully.
+'CAPC2012X135N'  symbol refreshed successfully.
+'XCVR_RFM95W-868S2'  symbol refreshed successfully.
+
+'PORT_ANTENA'  symbol starting to refresh:
+     WARNING(SPMHNI-252): 'PORT_ANTENA' symbol unable to find in directory search path.
+
+'SOT95P275X110-5N'  symbol starting to refresh:
+     WARNING(SPMHNI-252): 'SOT95P275X110-5N' symbol unable to find in directory search path.
+
+'QFN20G-05-4X4MM'  symbol starting to refresh:
+     ERROR(SPMHNI-271): 1 pins found in library symbol, but missing from the symbol in the physical design. They are:
+            PAD
+
+WARNING(SPMHNI-255): Symbol 'ELAPSED TIME  0:00:00' not found (in list file).
+WARNING(SPMHNI-255): Symbol 'CPU TIME      0:00:21' not found (in list file).
+WARNING(SPMHNI-255): Symbol 'NETREV RUN ON SEP 16 13:37:57 2020' not found (in list file).
+WARNING(SPMHNI-255): Symbol '------ SUMMARY STATISTICS ------' not found (in list file).
+WARNING(SPMHNI-255): Symbol 'PADPATH =  .' not found (in list file).
+WARNING(SPMHNI-255): Symbol 'PSMPATH =  .' not found (in list file).
+WARNING(SPMHNI-255): Symbol 'MODULEPATH =  .' not found (in list file).
+WARNING(SPMHNI-255): Symbol '------ LIBRARY PATHS ------' not found (in list file).
+WARNING(SPMHNI-255): Symbol '------ OVERSIGHTS/WARNINGS/ERRORS ------' not found (in list file).
+WARNING(SPMHNI-255): Symbol 'STARTING TO READ C:/USERS/CTHULHU/DOWNLOADS/PCB/ALLEGRO/PSTXNET.DAT' not found (in list file).
+WARNING(SPMHNI-255): Symbol 'STARTING TO READ C:/USERS/CTHULHU/DOWNLOADS/PCB/ALLEGRO/PSTXPRT.DAT' not found (in list file).
+WARNING(SPMHNI-255): Symbol 'STARTING TO READ C:/USERS/CTHULHU/DOWNLOADS/PCB/ALLEGRO/PSTCHIP.DAT' not found (in list file).
+WARNING(SPMHNI-255): Symbol '------ PREPARING TO READ PST FILES ------' not found (in list file).
+WARNING(SPMHNI-255): Symbol 'CMDLINE: NETREV.EXE -Y 1 -I C:\USERS\CTHULHU\DOWNLOADS\PCB\ALLEGRO C:\USERS\CTHULHU\DOWNLOADS\PCB\ALL~
+EGRO\PCB.BRD C:\USERS\CTHULHU\DOWNLOADS\PCB\ALLEGRO\PCB.BRD' not found (in list file).
+WARNING(SPMHNI-255): Symbol 'NEW DESIGN NAME:             'PCB.BRD'' not found (in list file).
+WARNING(SPMHNI-255): Symbol 'OLD DESIGN NAME:             'C:/USERS/CTHULHU/DOWNLOADS/PCB/ALLEGRO/PCB.BRD'' not found (in list fil~
+e).
+WARNING(SPMHNI-255): Symbol 'DESIGN DIRECTORY:            '.'' not found (in list file).
+WARNING(SPMHNI-255): Symbol 'SCHEMATIC DIRECTORY:         'C:\USERS\CTHULHU\DOWNLOADS\PCB\ALLEGRO'' not found (in list file).
+WARNING(SPMHNI-255): Symbol 'DRC UPDATE:                  YES' not found (in list file).
+WARNING(SPMHNI-255): Symbol 'MISSING SYMBOL HAS ERROR:    NO' not found (in list file).
+WARNING(SPMHNI-255): Symbol 'RIPUP SYMBOLS:               ALWAYS' not found (in list file).
+WARNING(SPMHNI-255): Symbol 'RIPUP RETAIN BONDWIRE:       NO' not found (in list file).
+WARNING(SPMHNI-255): Symbol 'RIPUP DELETE FIRST SEGMENT:  NO' not found (in list file).
+WARNING(SPMHNI-255): Symbol 'RIPUP ETCH:                  NO' not found (in list file).
+WARNING(SPMHNI-255): Symbol '------ DIRECTIVES ------------' not found (in list file).
+WARNING(SPMHNI-255): Symbol '(---------------------------------------------------------------------)' not found (in list file).
+WARNING(SPMHNI-255): Symbol '(                                                                     )' not found (in list file).
+Wed Sep 16 13:50:44 2020				Page     2
+
+
+WARNING(SPMHNI-255): Symbol '(    DATE/TIME        : WED SEP 16 13:37:57 2020                      )' not found (in list file).
+WARNING(SPMHNI-255): Symbol '(    SOFTWARE VERSION : 17.2P019                                      )' not found (in list file).
+WARNING(SPMHNI-255): Symbol '(    DRAWING          : PCB.BRD                                       )' not found (in list file).
+WARNING(SPMHNI-255): Symbol '(                                                                     )' not found (in list file).
+WARNING(SPMHNI-255): Symbol '(    ALLEGRO NETREV IMPORT LOGIC                                      )' not found (in list file).
+WARNING(SPMHNI-255): Symbol '(                                                                     )' not found (in list file).
+WARNING(SPMHNI-255): Symbol '(---------------------------------------------------------------------)' not found (in list file).
+
+
+
+----- Symbol Update Summary ----
+
+Updated symbols: 8 out 9
+    Design updated.
+
+Completed refreshing symbols; some symbols may not have been updated due to warnings or errors.
+       1  errors detected.
+       2  warnings detected.

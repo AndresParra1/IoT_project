@@ -1,4 +1,4 @@
-** Profile: "SCHEMATIC1-sim"  [ C:\Users\Asus PC\Documents\9_semestre\Diseño\Proyecto\Amplificador_ptc\amplificador_ptc-pspicefiles\schematic1\sim.sim ] 
+** Profile: "SCHEMATIC1-sim"  [ C:\Users\Cthulhu\Downloads\IoT_project-master\OrCAD\Amplificador_PTC\amplificador_ptc-pspicefiles\schematic1\sim.sim ] 
 
 ** Creating circuit file "sim.cir" 
 ** WARNING: THIS AUTOMATICALLY GENERATED FILE MAY BE OVERWRITTEN BY SUBSEQUENT SIMULATIONS
@@ -6,7 +6,7 @@
 *Libraries: 
 * Profile Libraries :
 * Local Libraries :
-* From [PSPICE NETLIST] section of D:\Programassss\Cadence\Cadence\SPB_Data\cdssetup\OrCAD_PSpice\17.2.0\PSpice.ini file:
+* From [PSPICE NETLIST] section of C:\Users\Cthulhu\AppData\Roaming\SPB_Data\cdssetup\OrCAD_PSpice\17.2.0\PSpice.ini file:
 .lib "nom.lib" 
 
 *Analysis directives: 
